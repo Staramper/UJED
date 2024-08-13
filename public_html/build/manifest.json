@@ -1,0 +1,31 @@
+{
+  "public_html/img/Facultad.jpg": {
+    "file": "assets/Facultad-beba1fbc.jpg",
+    "src": "public_html/img/Facultad.jpg"
+  },
+  "public_html/img/carrito.png": {
+    "file": "assets/carrito-eb0ddf55.png",
+    "src": "public_html/img/carrito.png"
+  },
+  "public_html/img/us.jpg": {
+    "file": "assets/us-5342b5b8.jpg",
+    "src": "public_html/img/us.jpg"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-77b80472.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-77b80472.css"
+    ],
+    "file": "assets/app-fca9cb8b.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-4b09d072.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  }
+}

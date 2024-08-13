@@ -1,0 +1,124 @@
+
+// VARIABLES
+$principal: #071952;
+$secondary: #f8fafc;
+// $principal: #00BB4A;
+// $secondary: white;
+
+// DISEÑOS PERSONALIZADOS
+.h-screen {
+  height: 100vh;
+}
+
+html{
+  font-size: 13px;
+}
+
+@media (min-width: 768px){
+  html{
+    font-size: 16px
+  }
+}
+
+.text-primary{
+  color: $principal;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  // font-family: 'Caprasimo', cursive;
+  // font-family: 'Orbit', sans-serif;
+  // font-family: 'DM Serif Display', serif;
+  // background-image: url('/public/img/logo/bg.jpeg');
+}
+
+// .fondo{
+//   // background-image: url('/public_html/img/logo/bg.jpeg');
+//   background-image: url('/public_html/img/logo/ujed_logo.png');
+  
+// }
+
+.sidebar-dark-blue{
+    background: $principal !important;
+}
+
+.bg-dark{
+  background-color: $principal !important;
+}
+
+#anuncios{
+  background-image: url('/public_html/img/carrito.png');
+  height: auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+// WELCOME
+  #welcome {
+    height: 100vh;
+  }
+
+#ujed{
+  background-image: url('/public_html/img/Facultad.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out; 
+}
+
+#title {
+  font-size: 100px;
+  line-height: 1; 
+  margin: 0; 
+  padding: 0; 
+}
+
+#difuminado{
+  background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.tarjeta{
+  background-color: #dbcee8;
+}
+
+.tarjeta:hover{
+  background-color: #ffffff;
+}
+
+.tarjeta img{
+  width: 8rem;
+}
+
+#nosotros{
+  background-image: url('/public_html/img/us.jpg');
+  background-color: #9DB2BF;
+  background-blend-mode: multiply;
+  width: 100%;
+  height: auto;
+  background-size: 100%;
+}
+
+.us{
+  background-color: #DDE6ED;
+}
+
+.equipo{
+  background-color: #DDE6ED;
+}
+
+.foto{
+  border: 1px solid black;
+  background-color: #9DB2BF;
+  width: 6rem;
+  height: 6rem;
+}
+
+// #RCompra{
+  // background-color: #FBF3FF;
+// }
